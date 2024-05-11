@@ -1,4 +1,5 @@
 import { fetchImages } from './js/pixabay-api';
+import './css/search-style.css';
 import './css/loader-styles.css';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { renderGallery, galleryElement } from './js/render-functions';
