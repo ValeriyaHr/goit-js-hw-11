@@ -11,7 +11,7 @@ const inputElement = document.querySelector('.search-input');
 const loader = document.querySelector('.loader');
 
 hideLoader();
-
+ 
 searchForm.addEventListener('submit', submitHandle);
 
 async function submitHandle(event) {
